@@ -1,0 +1,152 @@
+<!DOCTYPE html><!-- <BaseLayout>
+  <div class="space-y-20">
+    {
+      networkMembers.map((member) => {
+        return (
+          <section class="flex flex-col lg:flex-row sm:flex-row sm:space-x-4 lg:space-x-8">
+            <div class="flex justify-center flex-shrink-0 mb-6 sm:inline-block sm:mb-0">
+              {member.attributes.logo.data && (
+                <img
+                  loading="lazy"
+                  src={member.attributes.logo.data.attributes.url}
+                  alt=""
+                  class="w-40 h-auto"
+                />
+              )}
+            </div>
+            <div>
+              <h1 class="text-xl font-normal lg:text-2xl font-display">
+                {member.attributes.name}
+              </h1>
+              <div class="mt-5 lg:mt-7 [&>p]:mb-4 [&>p]:text-xl">
+                <p>
+                  Etiam ornare, lectus sed blandit pulvinar, nisl elit efficitur
+                  augue, vel aliquam sapien mi et tortor. Vestibulum lacinia
+                  pellentesque orci non tempor. Sed auctor imperdiet tempus.
+                  Fusce a purus nisl. Morbi tristique congue luctus. Quisque
+                  quis scelerisque tellus, sagittis auctor nulla.
+                </p>
+                <p>
+                  Nam sagittis id felis id luctus. Morbi semper urna vitae augue
+                  varius, a semper elit interdum. Donec auctor risus quam, ut
+                  volutpat enim semper ut.Mauris euismod auctor arcu, blandit
+                  posuere risus commodo ac. Nulla sit amet commodo sapien.
+                  Nullam urna lacus, vehicula vitae neque sit amet, mattis
+                  molestie enim. Sed rhoncus sodales porttitor. In laoreet
+                  volutpat arcu a accumsan. Curabitur vulputate lectus tortor,
+                  ac feugiat eros interdum sed. Nulla fringilla nunc vel nisi
+                  cursus, ut laoreet justo bibendum. Etiam vel interdum magna.
+                </p>
+              </div>
+            </div>
+          </section>
+        );
+      })
+    }
+  </div>
+</BaseLayout> --><html lang="en"> <head><!-- Global Metadata --><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v4.2.7"><!-- Canonical URL --><link rel="canonical" href="https://emgui.de/network/"><!-- Primary Meta Tags --><title>Astro Blog</title><meta name="title" content="Astro Blog"><meta name="description" content="Welcome to my website!"><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:url" content="https://emgui.de/network/"><meta property="og:title" content="Astro Blog"><meta property="og:description" content="Welcome to my website!"><meta property="og:image" content="https://emgui.de/blog-placeholder-1.jpg"><!-- Twitter --><meta property="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://emgui.de/network/"><meta property="twitter:title" content="Astro Blog"><meta property="twitter:description" content="Welcome to my website!"><meta property="twitter:image" content="https://emgui.de/blog-placeholder-1.jpg"><link rel="stylesheet" href="/_astro/about-us.dkVi-KkP.css" />
+<link rel="stylesheet" href="/_astro/about-us.-7dkUP7J.css" />
+<style>*,*:before,*:after{box-sizing:border-box}*{margin:0;min-width:0}html,body{min-height:100%;height:100%}body{height:100%;min-height:100%;color:#1a1a1a;display:flex;flex-direction:column;line-height:1.5;-webkit-font-smoothing:antialiased}img,picture,video,canvas,svg{display:block;max-width:100%}input,button,textarea,select{font:inherit}p,h1,h2,h3,h4,h5,h6{overflow-wrap:break-word}#root,#__next{isolation:isolate}.sr-only{border:0;padding:0;margin:0;position:absolute!important;height:1px;width:1px;overflow:hidden;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);white-space:nowrap}.splide__slide img{width:100%;height:auto}
+</style><script type="module" src="/_astro/hoisted.glN94tAr.js"></script></head> <body> <header class="fixed z-20 flex w-full mx-auto bg-white lg:container lg:relative lg:bg-transparent"> <nav class="flex items-center justify-between w-full px-4 py-8"> <!-- <h2><a href="/">{SITE_TITLE}</a></h2> --> <a href="/"> <svg class="w-32 h-auto lg:w-40" viewBox="0 0 160 53" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M160 0H141.007C138.126 2.5075 139.887 5.70856 142.394 5.70856H146.342L125.322 26.7289L98.5929 0L71.864 26.7289L45.1351 0L5.70858 39.4265V33.7713C3.20107 30.8903 0 32.6509 0 35.1584V52.8176H18.993C21.874 50.3101 20.1134 47.109 17.6059 47.109H13.6045L34.6249 26.0887L61.3538 52.8176L67.1691 47.0023L88.0827 26.0887L114.812 52.8176L154.291 13.3378V19.0463C156.799 21.9273 160 20.1667 160 17.6592V0Z" fill="#FF6EB7"></path> </svg> </a> <button id="em_navigation_button" class="relative z-20 w-8 h-8 lg:hidden"> <span class="sr-only">Open main menu</span> <div class="block w-8"> <span aria-hidden="true" class="block absolute h-0.5 w-8 bg-dark transform transition duration-500 ease-in-out -translate-y-1.5"></span> <span aria-hidden="true" class="block absolute h-0.5 w-8 bg-dark transform transition duration-500 ease-in-out"></span> <span aria-hidden="true" class="block absolute h-0.5 w-8 bg-dark transform transition duration-500 ease-in-out translate-y-1.5"></span> </div> </button> <div id="em_navigation" class="fixed top-0 left-0 flex flex-col w-full h-full gap-4 pt-8 pl-4 pr-4 transition-opacity ease-in-out opacity-0 pointer-events-none lg:opacity-100 -z-10 lg:z-0 lg:flex-row lg:w-auto lg:p-0 bg-accent lg:bg-transparent lg:static lg:flex lg:gap-menu lg:items-center font-display lg:pointer-events-auto"> <svg class="w-32 h-auto mb-4 lg:w-40 lg:hidden" viewBox="0 0 160 53" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M160 0H141.007C138.126 2.5075 139.887 5.70856 142.394 5.70856H146.342L125.322 26.7289L98.5929 0L71.864 26.7289L45.1351 0L5.70858 39.4265V33.7713C3.20107 30.8903 0 32.6509 0 35.1584V52.8176H18.993C21.874 50.3101 20.1134 47.109 17.6059 47.109H13.6045L34.6249 26.0887L61.3538 52.8176L67.1691 47.0023L88.0827 26.0887L114.812 52.8176L154.291 13.3378V19.0463C156.799 21.9273 160 20.1667 160 17.6592V0Z" fill="#FFF"></path> </svg> <a href="/about-us" class="w-fit h-fit text-white lg:text-dark -ml-3 px-3 py-2 text-3xl lg:text-base lg:leading-3 font-semibold lg:hover:text-accent"> about us </a> <a href="/network" class="w-fit h-fit text-white lg:text-dark -ml-3 px-3 py-2 text-3xl lg:text-base lg:leading-3 font-semibold lg:hover:text-accent border-white lg:border-accent border-3 rounded-menu"> network </a> <a href="/news" class="w-fit h-fit text-white lg:text-dark -ml-3 px-3 py-2 text-3xl lg:text-base lg:leading-3 font-semibold lg:hover:text-accent"> news </a> <a href="/publications" class="w-fit h-fit text-white lg:text-dark -ml-3 px-3 py-2 text-3xl lg:text-base lg:leading-3 font-semibold lg:hover:text-accent"> publications </a> <a href="/workshops" class="w-fit h-fit text-white lg:text-dark -ml-3 px-3 py-2 text-3xl lg:text-base lg:leading-3 font-semibold lg:hover:text-accent"> workshops </a> </div> </nav> </header> <main class="flex-grow lg:py-8 pt-28">  <div class="space-y-20"> <section class="container flex flex-col px-4 mx-auto lg:flex-row sm:flex-row sm:space-x-4 lg:space-x-8"> <div class="flex justify-center flex-shrink-0 mb-6 sm:inline-block sm:mb-0"> <img loading="lazy" src="logo_mmn.png" alt="" class="w-40 h-auto"> </div> <div> <h1 class="text-xl font-normal lg:text-2xl font-display">MMN mag</h1> <div class="mt-5 lg:mt-7 [&>p]:mb-4 [&>p]:text-xl"> <p>
+Etiam ornare, lectus sed blandit pulvinar, nisl elit efficitur
+            augue, vel aliquam sapien mi et tortor. Vestibulum lacinia
+            pellentesque orci non tempor. Sed auctor imperdiet tempus. Fusce a
+            purus nisl. Morbi tristique congue luctus. Quisque quis scelerisque
+            tellus, sagittis auctor nulla.
+</p> <p>
+Nam sagittis id felis id luctus. Morbi semper urna vitae augue
+            varius, a semper elit interdum. Donec auctor risus quam, ut volutpat
+            enim semper ut.Mauris euismod auctor arcu, blandit posuere risus
+            commodo ac. Nulla sit amet commodo sapien. Nullam urna lacus,
+            vehicula vitae neque sit amet, mattis molestie enim. Sed rhoncus
+            sodales porttitor. In laoreet volutpat arcu a accumsan. Curabitur
+            vulputate lectus tortor, ac feugiat eros interdum sed. Nulla
+            fringilla nunc vel nisi cursus, ut laoreet justo bibendum. Etiam vel
+            interdum magna.
+</p> </div> </div> </section> <section class="container flex flex-col px-4 mx-auto lg:flex-row sm:flex-row sm:space-x-4 lg:space-x-8"> <div class="flex justify-center flex-shrink-0 mb-6 sm:inline-block sm:mb-0"> <img loading="lazy" src="logo_struma_iodine.png" alt="" class="w-40 h-auto"> </div> <div> <h1 class="text-xl font-normal lg:text-2xl font-display">Struma + Iodine</h1> <div class="mt-5 lg:mt-7 [&>p]:mb-4 [&>p]:text-xl"> <p>
+Etiam ornare, lectus sed blandit pulvinar, nisl elit efficitur
+            augue, vel aliquam sapien mi et tortor. Vestibulum lacinia
+            pellentesque orci non tempor. Sed auctor imperdiet tempus. Fusce a
+            purus nisl. Morbi tristique congue luctus. Quisque quis scelerisque
+            tellus, sagittis auctor nulla.
+</p> <p>
+Nam sagittis id felis id luctus. Morbi semper urna vitae augue
+            varius, a semper elit interdum. Donec auctor risus quam, ut volutpat
+            enim semper ut.Mauris euismod auctor arcu, blandit posuere risus
+            commodo ac. Nulla sit amet commodo sapien. Nullam urna lacus,
+            vehicula vitae neque sit amet, mattis molestie enim. Sed rhoncus
+            sodales porttitor. In laoreet volutpat arcu a accumsan. Curabitur
+            vulputate lectus tortor, ac feugiat eros interdum sed. Nulla
+            fringilla nunc vel nisi cursus, ut laoreet justo bibendum. Etiam vel
+            interdum magna.
+</p> </div> </div> </section> <section class="container flex flex-col px-4 mx-auto lg:flex-row sm:flex-row sm:space-x-4 lg:space-x-8"> <div class="flex justify-center flex-shrink-0 mb-6 sm:inline-block sm:mb-0"> <img loading="lazy" src="logo_kaput.png" alt="" class="w-40 h-auto"> </div> <div> <h1 class="text-xl font-normal lg:text-2xl font-display">Kaput</h1> <div class="mt-5 lg:mt-7 [&>p]:mb-4 [&>p]:text-xl"> <p>
+Etiam ornare, lectus sed blandit pulvinar, nisl elit efficitur
+            augue, vel aliquam sapien mi et tortor. Vestibulum lacinia
+            pellentesque orci non tempor. Sed auctor imperdiet tempus. Fusce a
+            purus nisl. Morbi tristique congue luctus. Quisque quis scelerisque
+            tellus, sagittis auctor nulla.
+</p> <p>
+Nam sagittis id felis id luctus. Morbi semper urna vitae augue
+            varius, a semper elit interdum. Donec auctor risus quam, ut volutpat
+            enim semper ut.Mauris euismod auctor arcu, blandit posuere risus
+            commodo ac. Nulla sit amet commodo sapien. Nullam urna lacus,
+            vehicula vitae neque sit amet, mattis molestie enim. Sed rhoncus
+            sodales porttitor. In laoreet volutpat arcu a accumsan. Curabitur
+            vulputate lectus tortor, ac feugiat eros interdum sed. Nulla
+            fringilla nunc vel nisi cursus, ut laoreet justo bibendum. Etiam vel
+            interdum magna.
+</p> </div> </div> </section> <section class="container flex flex-col px-4 mx-auto lg:flex-row sm:flex-row sm:space-x-4 lg:space-x-8"> <div class="flex justify-center flex-shrink-0 mb-6 sm:inline-block sm:mb-0"> <img loading="lazy" src="logo_on_cologne.png" alt="" class="w-40 h-auto"> </div> <div> <h1 class="text-xl font-normal lg:text-2xl font-display">On Cologne</h1> <div class="mt-5 lg:mt-7 [&>p]:mb-4 [&>p]:text-xl"> <p>
+Etiam ornare, lectus sed blandit pulvinar, nisl elit efficitur
+            augue, vel aliquam sapien mi et tortor. Vestibulum lacinia
+            pellentesque orci non tempor. Sed auctor imperdiet tempus. Fusce a
+            purus nisl. Morbi tristique congue luctus. Quisque quis scelerisque
+            tellus, sagittis auctor nulla.
+</p> <p>
+Nam sagittis id felis id luctus. Morbi semper urna vitae augue
+            varius, a semper elit interdum. Donec auctor risus quam, ut volutpat
+            enim semper ut.Mauris euismod auctor arcu, blandit posuere risus
+            commodo ac. Nulla sit amet commodo sapien. Nullam urna lacus,
+            vehicula vitae neque sit amet, mattis molestie enim. Sed rhoncus
+            sodales porttitor. In laoreet volutpat arcu a accumsan. Curabitur
+            vulputate lectus tortor, ac feugiat eros interdum sed. Nulla
+            fringilla nunc vel nisi cursus, ut laoreet justo bibendum. Etiam vel
+            interdum magna.
+</p> </div> </div> </section> <section class="container flex flex-col px-4 mx-auto lg:flex-row sm:flex-row sm:space-x-4 lg:space-x-8"> <div class="flex justify-center flex-shrink-0 mb-6 sm:inline-block sm:mb-0"> <img loading="lazy" src="logo_3_4.png" alt="" class="w-40 h-auto"> </div> <div> <h1 class="text-xl font-normal lg:text-2xl font-display">3/4</h1> <div class="mt-5 lg:mt-7 [&>p]:mb-4 [&>p]:text-xl"> <p>
+Etiam ornare, lectus sed blandit pulvinar, nisl elit efficitur
+            augue, vel aliquam sapien mi et tortor. Vestibulum lacinia
+            pellentesque orci non tempor. Sed auctor imperdiet tempus. Fusce a
+            purus nisl. Morbi tristique congue luctus. Quisque quis scelerisque
+            tellus, sagittis auctor nulla.
+</p> <p>
+Nam sagittis id felis id luctus. Morbi semper urna vitae augue
+            varius, a semper elit interdum. Donec auctor risus quam, ut volutpat
+            enim semper ut.Mauris euismod auctor arcu, blandit posuere risus
+            commodo ac. Nulla sit amet commodo sapien. Nullam urna lacus,
+            vehicula vitae neque sit amet, mattis molestie enim. Sed rhoncus
+            sodales porttitor. In laoreet volutpat arcu a accumsan. Curabitur
+            vulputate lectus tortor, ac feugiat eros interdum sed. Nulla
+            fringilla nunc vel nisi cursus, ut laoreet justo bibendum. Etiam vel
+            interdum magna.
+</p> </div> </div> </section> <section class="container flex flex-col px-4 mx-auto lg:flex-row sm:flex-row sm:space-x-4 lg:space-x-8"> <div class="flex justify-center flex-shrink-0 mb-6 sm:inline-block sm:mb-0 min-w-40"> <!-- <img loading="lazy" src="logo_mmn.png" alt="" class="w-40 h-auto" /> --> </div> <div> <h1 class="text-xl font-normal lg:text-2xl font-display">Easterndaze</h1> <div class="mt-5 lg:mt-7 [&>p]:mb-4 [&>p]:text-xl"> <p>
+Etiam ornare, lectus sed blandit pulvinar, nisl elit efficitur
+            augue, vel aliquam sapien mi et tortor. Vestibulum lacinia
+            pellentesque orci non tempor. Sed auctor imperdiet tempus. Fusce a
+            purus nisl. Morbi tristique congue luctus. Quisque quis scelerisque
+            tellus, sagittis auctor nulla.
+</p> <p>
+Nam sagittis id felis id luctus. Morbi semper urna vitae augue
+            varius, a semper elit interdum. Donec auctor risus quam, ut volutpat
+            enim semper ut.Mauris euismod auctor arcu, blandit posuere risus
+            commodo ac. Nulla sit amet commodo sapien. Nullam urna lacus,
+            vehicula vitae neque sit amet, mattis molestie enim. Sed rhoncus
+            sodales porttitor. In laoreet volutpat arcu a accumsan. Curabitur
+            vulputate lectus tortor, ac feugiat eros interdum sed. Nulla
+            fringilla nunc vel nisi cursus, ut laoreet justo bibendum. Etiam vel
+            interdum magna.
+</p> </div> </div> </section> </div>  </main> <footer class="relative pt-5"> <div class="bg-dark"> <div class="container px-4 pt-12 pb-32 mx-auto"> <div class="flex flex-col lg:flex-row lg:justify-between"> <div class="flex flex-col lg:flex-row gap-2.5"> <img src="co_funded_eu.png" alt="" class="self-start max-w-64 lg:w-64 shrink-0"> <p class="max-w-md text-xs text-white shrink-0">
+Funded by the European Union. Views and opinions expressed are
+            however those of the author(s) only and do not necessarily reflect
+            those of the European Union or the European Education and Culture
+            Executive Agency (EACEA). Neither the European Union nor EACEA can
+            be held responsible for them.
+</p> </div> <div class="flex items-center self-start justify-center w-full mt-16 space-x-4 lg:mt-0 lg:justify-end"> <svg width="32" height="26" viewBox="0 0 32 26" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M32 7.488V20.7188C32 23.5349 29.8296 25.8362 27.095 25.9917L26.8 26H5.2C2.42715 26 0.1612 23.7957 0.00822411 21.0184L0 20.7188V7.488L15.4432 15.7046C15.792 15.8901 16.208 15.8901 16.5568 15.7046L32 7.488ZM5.2 0H26.8C29.4955 0 31.7122 2.0831 31.9741 4.75077L16 13.2491L0.0259041 4.75077C0.278176 2.1819 2.34291 0.155106 4.90254 0.00849867L5.2 0Z" fill="white"></path> </svg> <a href="mailto:info@emguide.hu" class="text-sm text-white font-display">info@emguide.hu</a> </div> </div> </div> </div> </footer>  </body></html>
