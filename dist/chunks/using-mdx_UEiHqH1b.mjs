@@ -1,6 +1,6 @@
 import { A as AstroError, q as ExpectedImageOptions, E as ExpectedImage, t as InvalidImageService, c as createAstro, d as createComponent, v as ImageMissingAlt, r as renderTemplate, m as maybeRenderHead, e as addAttribute, s as spreadAttributes, _ as __astro_tag_component__, F as Fragment, p as createVNode } from './astro_xFUflSn8.mjs';
 import { i as isESMImportedImage, a as isLocalService, b as isRemoteImage, D as DEFAULT_HASH_PROPS } from './astro/assets-service_ThUXqMvN.mjs';
-import { $ as $$HeaderLink } from './prerender_Z7yuoZbA.mjs';
+import { $ as $$HeaderLink } from './prerender_3MOPQKXU.mjs';
 
 async function getConfiguredImageService() {
   if (!globalThis?.astroAsset?.imageService) {
